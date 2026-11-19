@@ -1,0 +1,118 @@
+.gg {
+  font-size: 20px;
+  background-color: whitesmoke;
+}
+
+header {
+  background-image: url("support-header.svg");
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  color: white;
+  font-weight: bold;
+}
+
+#join h1 {
+  color: yellow;
+  margin: 0px;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+#join p {
+  font-size: 20px;
+  margin: 0px;
+  color: white;
+}
+
+#Events {
+  background-color: white;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+#Events p {
+  font-family: Yeseva one;
+  font-size: 20px;
+}
+
+.card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#Events h2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 36px;
+  font-family: Philosopher;
+  font-weight: bold;
+  color: #156f6f;
+}
+
+#Contact {
+  padding-bottom: 100px;
+}
+
+#Contact h2 {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 36px;
+  font-family: Philosopher;
+  font-weight: bold;
+  color: #156f6f;
+}
+
+#Contact p {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: Yeseva one;
+}
+
+#Contact h5 {
+  font-family: Philosopher;
+}
+
+#Contact .input-group-text {
+  background-color: skyblue;
+  color: white;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+#Contact input {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+#Contact button {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+}
+
+#Contact label {
+  font-size: 20px;
+}
+
+.end {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn-submit {
+  height: 50px;
+  font-size: 15px;
+  width: 80px;
+}
+
+.btn-success:hover {
+  background-color: black;
+}

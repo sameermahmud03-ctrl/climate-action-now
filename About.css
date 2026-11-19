@@ -1,0 +1,470 @@
+.nav-item {
+  opacity: 0.7;
+}
+
+.nav-item:hover {
+  opacity: 1;
+  background-color: #edee9b;
+}
+
+.person {
+  aspect-ratio: 1;
+  width: 90%;
+  border: 6px solid #a8cbe1;
+  border-radius: 100%;
+  margin-top: 80px;
+}
+
+/* Initials avatar used in place of team photos */
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  background: #a8cbe1;
+  color: white;
+  font-family: Philosopher;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h2,
+h3,
+p {
+  text-align: center;
+}
+
+.team h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: Philosopher;
+  font-weight: bold;
+  color: #156f6f;
+  margin-top: 15px;
+}
+
+.team p {
+  font-size: 15px;
+  font-family: Yeseva one;
+  color: #585555;
+  font-weight: bold;
+}
+
+.values h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: Philosopher;
+  font-weight: bold;
+  color: #156f6f;
+  margin-top: 80px;
+}
+
+.values p {
+  font-size: 15px;
+  font-family: Yeseva one;
+  color: #585555;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+
+.impact p {
+  font-size: 15px;
+  font-family: Yeseva one;
+  color: #585555;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+
+.impact h2 {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 30px;
+  font-family: Philosopher;
+  font-weight: bold;
+  color: #156f6f;
+}
+
+.up {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 50px;
+  font-family: Philosopher;
+  font-weight: bold;
+  color: #156f6f;
+}
+
+.calendar {
+  margin: auto;
+  max-width: 800px;
+  font-family: serif;
+  font-weight: bold;
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.month {
+  text-align: center;
+  background: white;
+  font-size: 80px;
+  letter-spacing: 1px;
+  color: black;
+  border: 3px solid #d5fdbf;
+}
+
+table, th, td {
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  font-size: 27px;
+  border-collapse: collapse;
+  border: 5px solid black;
+  font-family: elaphant;
+}
+
+tr, th, td {
+  padding: 15px;
+}
+
+th {
+  background: #a8cbe1;
+  color: white;
+  font-family: arial black;
+}
+
+td {
+  background: #9ba4e8;
+  color: white;
+}
+
+td:hover {
+  background: #a8cbe1;
+}
+
+/**/
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #277c27;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo {
+  width: 38px;
+  height: 38px;
+}
+
+.navbar-brand {
+  color: #c0c02a;
+  font-family: Vast shadow;
+}
+
+.one {
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 2.5px;
+  background: white;
+}
+
+header {
+  height: 600px;
+  width: 100%;
+  background-image: url("header-image.svg");
+  background-size: cover;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+header h1 {
+  margin-right: 75px;
+  font-family: Vast Shadow;
+  color: #f1f11e;
+}
+
+header p {
+  font-size: 15px;
+  font-family: Vast Shadow;
+  margin-right: 75px;
+  width: 450px;
+  color: white;
+}
+
+.label {
+  margin-bottom: 50px;
+  margin-right: 90px;
+}
+
+.donations h2 {
+  text-align: center;
+  font-size: 36px;
+  font-family: Philosopher;
+  font-weight: bold;
+  color: #156f6f;
+}
+
+.donations p {
+  font-size: 14px;
+}
+
+.help {
+  margin-top: 10px;
+  width: 450px;
+  height: 300px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.cause-desc {
+  margin-top: 65px;
+  text-align: center;
+}
+
+.donations {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.animation {
+  margin-left: 50px;
+  margin-top: 30px;
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
+
+.objective {
+  text-align: center;
+}
+
+.objective h2 {
+  font-family: Philosopher;
+  font-size: 36px;
+  font-weight: bold;
+  color: #156f6f;
+}
+
+.mission {
+  padding-top: 40px;
+  padding-bottom: 75px;
+}
+
+.sponsors {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-color: #a59c9c;
+}
+
+.sponsors h2,
+.sponsor h2 {
+  text-align: center;
+  font-family: Philosopher;
+  font-size: 36px;
+  font-weight: bold;
+  color: #156f6f;
+}
+
+.greenspace {
+  margin-top: 25px;
+  width: 250px;
+  height: 70px;
+}
+
+.EarthJ {
+  margin-left: 20px;
+  margin-top: 38px;
+  width: 250px;
+  height: 70px;
+}
+
+.FriendsEarth {
+  margin-top: 22px;
+  margin-left: 30px;
+  width: 250px;
+  height: 110px;
+}
+
+.ClimateJ {
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 160px;
+  height: 100px;
+}
+
+.footer {
+  background-color: #9eaeb7;
+  padding-top: 30px;
+  margin-top: 80px;
+}
+
+.footer i {
+  padding: 15px 10px;
+  margin-bottom: 80px;
+}
+
+.contact ul {
+  list-style-type: none;
+}
+
+.contact h2 {
+  padding-bottom: 10px;
+}
+
+.footer button {
+  margin-left: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer .follow {
+  text-align: center;
+}
+
+.follow-us {
+  margin-top: 45px;
+}
+
+.carousel-item {
+  width: 600px;
+  height: 200px;
+}
+
+.carousel {
+  background-color: #a59c9c;
+  width: 100%;
+  height: 200px;
+}
+
+.footer h2 {
+  text-align: left;
+}
+
+.follow h2 {
+  text-align: center;
+}
+
+.fictional-note {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #1f3d2b;
+  margin: 0;
+  padding: 10px 20px 0;
+}
+
+/* ---- Footer (restyled) ---- */
+.footer {
+  background: linear-gradient(135deg, #1f4d2e 0%, #277c27 60%, #2f8f5b 100%);
+  color: #eef6ee;
+  margin-top: 0;
+  padding: 50px 0 20px;
+  border-top: 6px solid #edee9b;
+}
+
+.footer h2 {
+  font-family: Philosopher;
+  font-size: 28px;
+  font-weight: bold;
+  color: #edee9b;
+  text-align: left;
+  padding-bottom: 12px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgba(237, 238, 155, 0.35);
+  display: inline-block;
+}
+
+.footer .follow h2 {
+  text-align: center;
+}
+
+.footer .contact ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.footer .contact li {
+  display: flex;
+  align-items: center;
+  font-family: Yeseva One;
+  font-size: 15px;
+  margin-bottom: 14px;
+}
+
+.footer .contact br {
+  display: none;
+}
+
+.footer i {
+  color: #edee9b;
+  font-size: 22px;
+  padding: 0 12px 0 0;
+  margin-bottom: 0;
+}
+
+.footer .follow {
+  text-align: center;
+}
+
+.footer .follow-us {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer .follow-us i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  padding: 0;
+  font-size: 22px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.footer .follow-us i:hover {
+  background: #edee9b;
+  color: #1f4d2e;
+  transform: translateY(-3px);
+}
+
+.footer button {
+  margin-left: 8px;
+  padding: 8px 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 999px;
+  background: #edee9b;
+  color: #1f4d2e;
+  transition: transform 0.2s;
+}
+
+.footer button:hover {
+  background: #fff;
+  transform: translateY(-2px);
+}
+
+.footer .fictional-note {
+  margin-top: 30px;
+  padding: 16px 20px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  color: #d6e8d6;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+}
