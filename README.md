@@ -10,10 +10,10 @@ A multi-page website for a fictional climate nonprofit, **Climate Action Now**, 
 - `support.html`: upcoming events and a sign-up form
 
 ## Team
-Built by Sameer and [teammate first names].
+Sameer Sourav, Isaac Ponce, Kathia Castillo and Orlando Garay
 
 ## My role
-[Describe what you worked on]
+My main parts were the footer and the Services page, plus the UX design and color scheme. Because we built this as a group, I also pitched in on the other pages, including the home page, About, News, and Get Involved, so I'm familiar with the whole site.
 
 ## Notes
 - Climate Action Now and its team members, address, phone number, and email are **fictional** and used as placeholders.
